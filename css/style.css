@@ -5,7 +5,7 @@
 }
 
 .clearfix:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
@@ -24,6 +24,7 @@ body {
 .fisso {
     background-color: #f5f8fa;
     height: 73.7px;
+    border-bottom: 1px solid #ccd7e3;
 
 }
 
@@ -208,14 +209,90 @@ body {
 
 }
 /* NB FINE BANNER */
-/* NB INIZIO JUMBOTRON */
+/* NB INIZIO HOME */
 .terzo {
     background-color: #fff3ee;
     height: 693px;
 }
 
-.container-jumbotron {
+.container-home {
+    height: 693px;
+    position: relative;
+        border-bottom: 2px solid #33475b;
+}
+
+.home {
+    height: 693px;
+    vertical-align: middle;
+    position: relative;
+    top: 70px;
 
 }
 
-/* NB FINE JUMBOTRON */
+.text-uno {
+    height:140px;
+    width: 50%;
+    position: relative;
+
+
+}
+
+.text-due {
+    height:180px;
+    width: 50%;
+    position: relative;
+
+}
+
+.text-tre {
+    height: 150px;
+    width: 50%;
+    position: relative;
+
+}
+
+.text-quattro {
+    height: 100px;
+    width: 50%;
+    position: relative;
+
+}
+.text-uno H1 {
+    margin-left: 79px;
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #33475b;
+}
+
+.text-due p {
+    margin-left: 79px;
+    position: absolute;
+    top: 25px;
+    color: #33475b;
+}
+
+.text-tre a {
+    margin-left: 79px;
+    position: relative;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    top: -52px;
+}
+
+.text-quattro p {
+    margin-left:  79px;
+    font-size: 13px;
+    color: #33475b;
+    position: relative;
+    top: -116px;
+
+}
+
+/* NB FINE HOME */
