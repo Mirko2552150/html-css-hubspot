@@ -28,7 +28,7 @@ body {
 }
 
 .container-fisso {
-    height: 100px;
+    height: 73.7px;
 }
 
 .nav {
@@ -129,24 +129,51 @@ body {
 
 .primo {
     background-color: #ffffff;
-    height: 82px;
+
 }
 
 .container-header {
+    width: 100%;
+    height: 82px;
+}
 
+.header-img {
+    height: 82px;
+    display: inline-block;
 }
 
 .header-img img {
-    float: left;
+    margin-top: 22px;
+    margin-left: -180px;
+}
+
+.list-header {
+    float: right;
+    margin-top: 37px;
+    margin-left: 50px;
 
 }
 
 .list-header ul {
+    text-decoration: none;
+    position: relative;
+    left: 200px;
 
 }
 
 .list-header ul li {
+    float: left;
+    text-decoration: none;
+    /* toglie i puntini */
+    list-style: none;
+    line-height: 50%;
+}
 
+.list-header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #33475b;
 }
 
 /* NB FINE HEADER */
