@@ -180,14 +180,33 @@ body {
 /* NB INIZIO BANNER */
 .secondo {
     background-color: #425b76;
-    height: 92px;
+
 }
 
 .container-banner {
-
+    height: 92px;
 }
 
+.testo-banner p {
+    font-size: 16px;
+    margin-left: 90px;
+    color: white;
+}
 
+.learn-more a {
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #33475b;
+    float: right;
+    margin-top:-29px;
+    margin-right: 35px;
+
+}
 /* NB FINE BANNER */
 /* NB INIZIO JUMBOTRON */
 .terzo {
