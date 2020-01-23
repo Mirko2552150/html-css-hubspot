@@ -9,5 +9,60 @@
     display: table;
     clear: both;
 }
+/* in comune con tutti i container */
+.container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
 
-.
+}
+
+/* NB INIZIO FISSO */
+.fisso {
+    background-color: #f5f8fa;
+    height: 73.7px;
+
+}
+
+.container-fisso {
+    height: 100px;
+
+}
+
+/* NB FINE FISSO */
+
+/* NB INIZIO HEADER */
+
+.primo {
+    background-color: #ffffff;
+    height: 82px;
+}
+
+.container-header {
+
+}
+
+/* NB FINE HEADER */
+/* NB INIZIO BANNER */
+.secondo {
+    background-color: #425b76;
+    height: 92px;
+}
+
+.container-banner {
+
+}
+
+
+/* NB FINE BANNER */
+/* NB INIZIO JUMBOTRON */
+.terzo {
+    background-color: #fff3ee;
+    height: 693px;
+}
+
+.container-jumbotron {
+
+}
+
+/* NB FINE JUMBOTRON */
