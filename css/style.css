@@ -17,6 +17,9 @@
 
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 /* NB INIZIO FISSO */
 .fisso {
     background-color: #f5f8fa;
@@ -26,7 +29,98 @@
 
 .container-fisso {
     height: 100px;
+}
 
+.nav {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav-first {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 73.7px;
+}
+
+.blocco-uno {
+    float: left;
+
+}
+
+.blocco-due {
+    float: right;
+}
+.mic {
+
+}
+
+.mic img {
+    width: 16px;
+    height: 24px;
+    float: left;
+    margin-top: 22px;
+    margin-right: 4px;
+    margin-left: 30px;
+}
+
+.mic a {
+    font-size: 14px;
+    float: left;
+    margin-top: 1px;
+}
+
+.contact a {
+    font-size: 14px;
+    border-left: 2px solid #dfe6ee;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.search {
+    width: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #f5f8fa;
+    background-color: #f5f8fa;
+
+}
+
+.get {
+    float: right;
+    margin-left: 5px;
+}
+
+.get a {
+    font-size: 12px;
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.log-in {
+    float: right;
+}
+
+.log-in a {
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid #ffac97;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-weight: bold;
+    color: #ff7a59;
+
+}
+
+.get button {
+    color: white;
 }
 
 /* NB FINE FISSO */
@@ -39,6 +133,19 @@
 }
 
 .container-header {
+
+}
+
+.header-img img {
+    float: left;
+
+}
+
+.list-header ul {
+
+}
+
+.list-header ul li {
 
 }
 
