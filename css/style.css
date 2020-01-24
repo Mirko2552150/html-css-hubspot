@@ -546,7 +546,6 @@ body {
 
 .container-tab {
     margin: 0 auto;
-    background-color: red;
     width: 1000px;
     height: 900px;
     position: relative;
@@ -557,7 +556,6 @@ body {
     width: 1000px;
     height: 750px;
     margin: 0 auto;
-    background-color: green;
     position: relative;
     left: 50%;
     top: 50%;
@@ -568,7 +566,6 @@ body {
 .testo-tabella {
     width: 1000px;
     height: 33.33%;
-    background-color: pink;
     margin: 0 auto;
 }
 
