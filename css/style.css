@@ -572,6 +572,24 @@ body {
     margin: 0 auto;
 }
 
+.titolo-tabella h1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.paragrafo-tabella p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
 .corpo-tabella {
     width: 1000px;
     height: 66.66%;
