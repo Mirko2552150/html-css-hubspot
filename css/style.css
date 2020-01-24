@@ -11,9 +11,9 @@
 }
 /* in comune con tutti i container DA AGGIUNGERE SE NON LO METTI NEL NOME NB */
 .container {
-        width: 80%;
-        max-width: 1200px;
-        margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -346,7 +346,6 @@ body {
     margin: 0 auto;
     width: 960px;
     height: 282px;
-    border: 1px solid black;
     padding: 32px;
 }
 
@@ -582,44 +581,77 @@ body {
 
 .cubo-tab {
     width: 25%;
-    height: 50%;;
+    height: 50%;
     float: left;
-    background-color: white;
+    background-color: #00b6ab;
 
 }
-
-.cubo-tab .bottom-right {
+/* FRATELLI QUINDI SENZA SPAZIO */
+.cubo-tab.bottom-right {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 
+
 }
 
-.cubo-tab .bottom-left-right {
+.cubo-tab.bottom-left-right {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
 
 
 }
-.cubo-tab .bottom-left {
+
+.cubo-tab.bottom-left {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 
+
 }
-.cubo-tab .top-right {
+
+.cubo-tab.top-right {
     border-top: 1px solid black;
     border-right: 1px solid black;
 
+
 }
-.cubo-tab .top-left-right {
+
+.cubo-tab.top-left-right {
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
 
 
 }
-.cubo-tab .top-left {
+
+.cubo-tab.top-left {
     border-top: 1px solid black;
     border-left: 1px solid black;
 
+}
+
+.icona-cubo img {
+    width: 50.5px;
+    height: 50.5px;
+    background-color: #00b6ab;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.titolo-cubo .titolodue-cubo h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.sottotitolo-cubo p {
+    text-align: center;
+    font-size: 14.4px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
 }
