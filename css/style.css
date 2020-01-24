@@ -308,14 +308,12 @@ body {
     margin: 0 auto;
     width: 800px;
     height: 465px;
-    background-color: green;
     position: relative;
 }
 
 .parte-uno.box {
     width: 800px;
     height: 315px;
-    background-color: orange;
     position: relative;
     top: 100px;
 
@@ -334,19 +332,20 @@ body {
     text-align: center;
     margin-top: 10px;
     font-size: 32px;
+    color: #33475b;
 }
 
 .testo-parte-uno {
     margin-top: 20px;
     text-align: center;
     font-size: 16px;
+    color: #33475b;
 }
 
 .parte-due {
     margin: 0 auto;
     width: 960px;
     height: 282px;
-    background-color: yellow;
     border: 1px solid black;
     padding: 32px;
 }
@@ -354,7 +353,6 @@ body {
 .img-testo {
     width: 282px;
     height: 218px;
-    background-color: red;
     position: relative;
     float: left;
 }
@@ -387,7 +385,6 @@ body {
     width: 610px;
     height: 218px;
     float: left;
-    background: blue;
 }
 
 .img-testo-due h2 {
@@ -443,7 +440,6 @@ body {
     margin: 0 auto;
     width: 960px;
     height: 700px;
-    background-color: green;
 
 }
 
@@ -452,7 +448,6 @@ body {
     height: 100%;
     border: 1px solid black;
     float: left;
-    background-color: yellow;
     padding: 50px;
 
 
@@ -469,7 +464,7 @@ body {
     width: 219px;
     height: 50px;
     float: left;
-    background-color: red;
+
 }
 
 .titolo-quarto h2 {
@@ -482,7 +477,6 @@ body {
     width: 219px;
     height: 140px;
     float: left;
-    background-color: orange;
     border-bottom: 1px solid #e0e6ed;
 }
 
@@ -494,7 +488,6 @@ body {
 .sottotitolo-quarto {
     width: 219px;
     height: 80px;
-    background-color: red;
     float: left;
 
 }
@@ -508,7 +501,6 @@ body {
 .lista-due-quarto {
     width: 219px;
     height: 137px;
-    background-color: orange;
     float: left;
 }
 
@@ -526,7 +518,6 @@ body {
 .bottom-quarto {
     width: 219px;
     height: 82px;
-    background-color: red;
     float: left;
     text-align: center;
     position: relative;
@@ -549,14 +540,86 @@ body {
 /* NB INIZIO QUINTO */
 
 .quinto {
-    background-color: #00acb5;
-    height: 870px;
+    /* backgroud SFUMATO  */
+    background-color: #00b6ab;
+    height: 900px;
+}
+
+.container-tab {
+    margin: 0 auto;
+    background-color: red;
+    width: 1000px;
+    height: 900px;
+    position: relative;
+
 }
 
 .tabella {
+    width: 1000px;
+    height: 750px;
     margin: 0 auto;
-    background-color: red;
-    width: 520px;
-    height: 500px;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.testo-tabella {
+    width: 1000px;
+    height: 33.33%;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.corpo-tabella {
+    width: 1000px;
+    height: 66.66%;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.cubo-tab {
+    width: 25%;
+    height: 50%;;
+    float: left;
+    background-color: white;
+
+}
+
+.cubo-tab .bottom-right {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.cubo-tab .bottom-left-right {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+.cubo-tab .bottom-left {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+.cubo-tab .top-right {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+}
+.cubo-tab .top-left-right {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+.cubo-tab .top-left {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 
 }
