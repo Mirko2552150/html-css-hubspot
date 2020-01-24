@@ -9,7 +9,7 @@
     display: table;
     clear: both;
 }
-/* in comune con tutti i container */
+/* in comune con tutti i container DA AGGIUNGERE SE NON LO METTI NEL NOME NB */
 .container {
         width: 80%;
         max-width: 1200px;
@@ -213,12 +213,13 @@ body {
 .terzo {
     background-color: #fff3ee;
     height: 693px;
+    border-bottom: 2px solid #33475b;
 }
 
 .container-home {
     height: 693px;
     position: relative;
-        border-bottom: 2px solid #33475b;
+
 }
 
 .home {
@@ -296,3 +297,266 @@ body {
 }
 
 /* NB FINE HOME */
+/* NB INIZIO QUARTO */
+
+.quarto {
+    color: #f5f8fa;
+    height: 1650px;
+}
+
+.parte-uno {
+    margin: 0 auto;
+    width: 800px;
+    height: 465px;
+    background-color: green;
+    position: relative;
+}
+
+.parte-uno.box {
+    width: 800px;
+    height: 315px;
+    background-color: orange;
+    position: relative;
+    top: 100px;
+
+}
+
+.img-box {
+    width: 260px;
+    height: 194px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.titolo-parte-uno {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.testo-parte-uno {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.parte-due {
+    margin: 0 auto;
+    width: 960px;
+    height: 282px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 32px;
+}
+
+.img-testo {
+    width: 282px;
+    height: 218px;
+    background-color: red;
+    position: relative;
+    float: left;
+}
+
+.img-testo img {
+    width: 140px;
+    height: 150px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-testo a {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.img-testo-due {
+    width: 610px;
+    height: 218px;
+    float: left;
+    background: blue;
+}
+
+.img-testo-due h2 {
+    font-size: 22px;
+    color: #33475b;
+    display: block;
+    margin-top: 5px;
+}
+
+.img-testo-due p {
+    font-size: 14px;
+    color: #33475b;
+    display: block;
+    margin-top: 20px;
+}
+
+.img-testo-due h3 {
+    font-size: 14px;
+    color: #33475b;
+    display: inline-block;
+    float: left;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.line-quarto {
+    display: inline-block;
+    width: 400px;
+    height: 6px;
+    float: left;
+    margin-left: 4px;
+    border-bottom: 2px solid #e0e6ed;
+    margin-top: 44px;
+
+}
+
+.lista.quarto ul {
+    width: 100px;
+    height: 50px;
+    background: black;
+
+}
+
+.lista-quarto ul li {
+    display: inline-block;
+    margin-top: 20px;
+    color: #33475b;
+    font-size: 13px;
+
+}
+
+.parte-tre {
+    margin: 0 auto;
+    width: 960px;
+    height: 700px;
+    background-color: green;
+
+}
+
+.box-quarto {
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    background-color: yellow;
+    padding: 50px;
+
+
+}
+
+.box-quarto img {
+    width: 219px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+}
+
+.titolo-quarto {
+    width: 219px;
+    height: 50px;
+    float: left;
+    background-color: red;
+}
+
+.titolo-quarto h2 {
+    text-align: center;
+    color: #33475b;
+
+}
+
+.testo-quarto {
+    width: 219px;
+    height: 140px;
+    float: left;
+    background-color: orange;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.testo-quarto p {
+    text-align: center;
+    color: #33475b;
+}
+
+.sottotitolo-quarto {
+    width: 219px;
+    height: 80px;
+    background-color: red;
+    float: left;
+
+}
+
+.sottotitolo-quarto h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #33475b;
+}
+
+.lista-due-quarto {
+    width: 219px;
+    height: 137px;
+    background-color: orange;
+    float: left;
+}
+
+.lista-due-quarto ul {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.lista-due-quarto ul li {
+    color: #33475b;
+}
+
+.bottom-quarto {
+    width: 219px;
+    height: 82px;
+    background-color: red;
+    float: left;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.bottom-quarto a {
+    padding: 25px;
+    background-color: #ff7a59;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* NB INIZIO QUINTO */
+
+.quinto {
+    background-color: #00acb5;
+    height: 870px;
+}
+
+.tabella {
+    margin: 0 auto;
+    background-color: red;
+    width: 520px;
+    height: 500px;
+
+}
