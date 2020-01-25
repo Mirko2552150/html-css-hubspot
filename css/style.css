@@ -387,7 +387,6 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
-    color: white;
 
 }
 
@@ -833,13 +832,12 @@ body {
 .container-foot {
     width: 1000px;
     margin: 0 auto;
-    height: 554px;
+    height: 654px;
 }
 
 .foot {
-    margin: 0 auto;
     width: 1000px;
-    height: 321px;
+    height: 421px;
 
 }
 
@@ -848,6 +846,7 @@ body {
     width: 25%;
     float: left;
     position: relative;
+    margin-top: 50px;
 }
 
 .footbox h4 {
@@ -862,7 +861,6 @@ body {
     position: relative;
     top: 20px;
     color: white;
-    font-weight: bold;
     font-size: 14px;
 }
 
@@ -883,7 +881,7 @@ body {
     height: 50px;
     width: 249px;
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
 }
 
 .footicon .fab {
@@ -936,7 +934,7 @@ footer {
 }
 
 .sinistra small {
-    color: white;
+    color: white
 }
 
 .destra {
