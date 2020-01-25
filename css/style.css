@@ -602,7 +602,6 @@ body {
     width: 1000px;
     height: 66.66%;
     margin: 0 auto;
-    background-color: orange;
 }
 
 .cubo-tab {
@@ -614,45 +613,45 @@ body {
 }
 /* FRATELLI QUINDI SENZA SPAZIO */
 .cubo-tab.bottom-right {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 
 
 }
 
 .cubo-tab.bottom-left-right {
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 
 
 }
 
 .cubo-tab.bottom-left {
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
 
 
 }
 
 .cubo-tab.top-right {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
 
 
 }
 
 .cubo-tab.top-left-right {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 
 
 }
 
 .cubo-tab.top-left {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
 
 }
 
