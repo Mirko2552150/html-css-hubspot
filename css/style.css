@@ -20,7 +20,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/* NB INIZIO FISSO */
+/* NB INIZIO FISSO *//* NB INIZIO FISSO *//* NB INIZIO FISSO */
+/* NB INIZIO FISSO *//* NB INIZIO FISSO *//* NB INIZIO FISSO */
 .fisso {
     background-color: #f5f8fa;
     height: 73.7px;
@@ -123,11 +124,11 @@ body {
 .get button {
     color: white;
 }
+/* NB FINE FISSO *//* NB FINE FISSO *//* NB FINE FISSO *//* NB FINE FISSO */
+/* NB FINE FISSO *//* NB FINE FISSO *//* NB FINE FISSO *//* NB FINE FISSO *//*
 
-/* NB FINE FISSO */
-
-/* NB INIZIO HEADER */
-
+/* NB INIZIO HEADER *//* NB INIZIO HEADER *//* NB INIZIO HEADER *//*
+/* NB INIZIO HEADER *//* NB INIZIO HEADER *//* NB INIZIO HEADER */
 .primo {
     background-color: #ffffff;
 
@@ -176,9 +177,11 @@ body {
     margin-left: 50px;
     color: #33475b;
 }
+/* NB FINE HEADER *//* NB FINE HEADER *//* NB FINE HEADER */
+/* NB FINE HEADER *//* NB FINE HEADER *//* NB FINE HEADER */
 
-/* NB FINE HEADER */
-/* NB INIZIO BANNER */
+/* NB INIZIO BANNER *//* NB INIZIO BANNER *//* NB INIZIO BANNER */
+/* NB INIZIO BANNER *//* NB INIZIO BANNER *//* NB INIZIO BANNER */
 .secondo {
     background-color: #425b76;
 
@@ -208,8 +211,11 @@ body {
     margin-right: 35px;
 
 }
-/* NB FINE BANNER */
-/* NB INIZIO HOME */
+/* NB FINE BANNER *//* NB FINE BANNER *//* NB FINE BANNER */
+/* NB FINE BANNER *//* NB FINE BANNER *//* NB FINE BANNER */
+
+/* NB INIZIO HOME *//* NB INIZIO HOME *//* NB INIZIO HOME */
+/* NB INIZIO HOME *//* NB INIZIO HOME *//* NB INIZIO HOME */
 .terzo {
     background-color: #fff3ee;
     height: 693px;
@@ -296,8 +302,11 @@ body {
 
 }
 
-/* NB FINE HOME */
-/* NB INIZIO QUARTO */
+/* NB FINE HOME *//* NB FINE HOME *//* NB FINE HOME */
+/* NB FINE HOME *//* NB FINE HOME *//* NB FINE HOME */
+
+/* NB INIZIO QUARTO *//* NB INIZIO QUARTO *//* NB INIZIO QUARTO */
+/* NB INIZIO QUARTO *//* NB INIZIO QUARTO *//* NB INIZIO QUARTO */
 
 .quarto {
     color: #f5f8fa;
@@ -347,6 +356,7 @@ body {
     width: 960px;
     height: 282px;
     padding: 32px;
+    border: 2px solid #f4f7fa;
 }
 
 .img-testo {
@@ -445,10 +455,9 @@ body {
 .box-quarto {
     width: 33.33%;
     height: 100%;
-    border: 1px solid black;
+    border: 2px solid #f4f7fa;
     float: left;
     padding: 50px;
-
 
 }
 
@@ -535,8 +544,11 @@ body {
     font-weight: bold;
 
 }
+/* NB FINE QUARTO *//* NB FINE QUARTO *//* NB FINE QUARTO */
+/* NB FINE QUARTO *//* NB FINE QUARTO *//* NB FINE QUARTO */
 
-/* NB INIZIO QUINTO */
+/* NB INIZIO QUINTO *//* NB INIZIO QUINTO *//* NB INIZIO QUINTO */
+/* NB INIZIO QUINTO *//* NB INIZIO QUINTO *//* NB INIZIO QUINTO */
 
 .quinto {
     /* backgroud SFUMATO  */
@@ -669,4 +681,150 @@ body {
     font-weight: bold;
     color: white;
     margin-top: 20px;
+}
+/* NB FINE QUINTO *//* NB INIZIO QUINTO *//* NB INIZIO QUINTO */
+/* NB INIZIO QUINTO *//* NB INIZIO QUINTO *//* NB INIZIO QUINTO */
+
+/* NB INIZIO SESTO *//* NB INIZIO SESTO *//* NB INIZIO SESTO */
+/* NB INIZIO SESTO *//* NB INIZIO SESTO *//* NB INIZIO SESTO */
+
+.sesto {
+    background-color: pink;
+
+}
+
+.container-customers {
+    margin: 0 auto;
+    width: 1000px;
+    height: 2000px;
+    background-color: white;
+
+}
+
+.customers-primo {
+    height: 282px;
+    background-color: red;
+    position: relative;
+
+}
+
+.primobox-sesto {
+    height: 182px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -100px;
+
+}
+
+.primobox-testo {
+    border: 1px solid black;
+    width: 34%;
+    height: 182px;
+    float: left;
+}
+
+.primobox-testo h1 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.primobox-testo p {
+    text-align: left;
+    font-size: 19.2px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.primobox-icone {
+    border: 1px solid black;
+    width: 66%;
+    height: 182px;
+    float: left;
+}
+
+.card-icone {
+    width: 25%;
+    height: 50%;
+    border: 1px solid black;
+    float: left;
+    background-color: yellow;
+    position: relative;
+
+}
+
+.card-icone img {
+    width: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.customers-secondo {
+    height: 682px;
+    background-color: orange;
+    position: relative;
+
+}
+
+.secondobox-sesto {
+    height: 442px;
+    border: 1px solid black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secondobox-testo {
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+
+.secondobox-image {
+    width: 40%;
+    height: 100%;
+    float: left;
+
+}
+
+.secondobox-image img {
+    width: 350px;
+    height: 432px;
+    margin-left: 76px;
+}
+.secondobox-testo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #33475b;
+    margin-top: 25px;
+}
+
+.secondobox-testo p {
+    margin-top: 45px;
+    font-size: 16px
+    color: #33475b;
+    margin-bottom: 75px;
+}
+
+.secondobox-testo a {
+    font-size: 16px
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.secondobox-testo small {
+    font-size: 12px;
+    color: #33475b;
+    
 }
