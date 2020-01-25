@@ -387,6 +387,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
+    color: white;
 
 }
 
@@ -529,7 +530,6 @@ body {
     float: left;
     text-align: center;
     position: relative;
-
 
 }
 
@@ -831,23 +831,125 @@ body {
 }
 
 .container-foot {
-    background-color: white;
     width: 1000px;
     margin: 0 auto;
-    height: 654px;
+    height: 554px;
 }
 
 .foot {
     margin: 0 auto;
     width: 1000px;
     height: 321px;
-    background-color: white;
-    border: 1px solid black;
+
 }
 
 .footbox {
     height: 100%;
     width: 25%;
-    border: 1px solid black;
     float: left;
+    position: relative;
+}
+
+.footbox h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.footbox a {
+    display: inline-block;
+    margin top: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footbox #special {
+    font-size: 12px;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+}
+.footbox .quattro {
+    position: relative;
+}
+
+.footicon {
+    height: 50px;
+    width: 249px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footicon .fab {
+    margin-left: 5px;
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+
+.lingue {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+
+.lingue ul {
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+
+}
+
+.lingue ul li {
+    display: inline-block;
+}
+
+.lingue ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+
+}
+
+footer {
+    width: 1000px;
+    height: 135px;
+}
+
+.sinistra {
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.sinistra small {
+    color: white;
+}
+
+.destra {
+    margin-top: 50px;
+    width: 20%;
+    height: 50%;
+    float: right;
+    position:relative;
+}
+
+.destra a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
