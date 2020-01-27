@@ -31,6 +31,7 @@ body {
 .fissouno {
     width: 100%;;
     height: 72.8px;
+    /* fixed navbar */
     position: fixed;
     top: 0;
     left: 0;
@@ -139,6 +140,7 @@ body {
 /* NB INIZIO HEADER *//* NB INIZIO HEADER *//* NB INIZIO HEADER */
 .primo {
     background-color: #ffffff;
+    /* fixed navbar */
     margin-top: 72.8px;
 
 }
